@@ -12,6 +12,15 @@ public class Joker {
     private Integer id;
     private String name;
     private Float weight;
+    private Double foot_size;
+
+    public Double getFoot_size() {
+        return foot_size;
+    }
+
+    public void setFoot_size(Double foot_size) {
+        this.foot_size = foot_size;
+    }
 
     public Integer getId() {
         return id;
