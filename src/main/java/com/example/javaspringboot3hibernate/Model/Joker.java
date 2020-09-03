@@ -1,5 +1,8 @@
 package com.example.javaspringboot3hibernate.Model;
 
+import com.sun.istack.NotNull;
+import org.aspectj.bridge.IMessage;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
